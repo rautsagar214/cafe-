@@ -1,0 +1,210 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins&display=swap'); */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1e1c2a;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Borel', cursive; */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #2c293e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
+}
+
+.main-heading , h3{
+    font-size: 35px;
+    color: white;
+}
+
+.logo-img{
+    width: 50px;
+}
+
+.main-heading{
+    color: orange;
+}
+
+.navbar-options{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: orange;
+}
+
+.main-img{
+    width: 500px;
+}
+
+.home-page,.about-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 40px;
+    /* margin-bottom: 50px; */
+    margin-top: 80px;
+}
+
+@keyframes slidefromleft{
+    0% {right: 500px;}
+    60% {right: -10px;}
+    80% {right: 20px;}
+    100% {right: 0px;}
+}
+
+@keyframes slidefromright{
+    0% {left: 500px;}
+    60% {left: -10px;}
+    80% {left: 20px;}
+    100% {left: 0px;}
+}
+
+.container-1{
+    position: relative;
+    animation: slidefromleft 1s ease;
+}
+
+.container-2{
+    position: relative;
+    animation: slidefromright 1s ease;
+}
+
+.about-us{
+    padding: 100px 150px;
+}
+
+h1{
+    font-size: 80px;
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.menu-btn{
+    width: 130px;
+    /* height: 50px; */
+    border-radius: 5px;
+    background-color: orange;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-btn:hover{
+    transform: scale(1.2);
+}
+
+.about-info{
+    width: 500px;
+    
+}
+
+h4{
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+p{
+    color: white;
+    margin-top: 30px;
+}
+
+.food-menu , .services{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.services{
+    margin-top: 150px;
+}
+
+.menu-cards-div , .services-div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.services-div{
+    margin-top: 60px;
+}
+
+.menu-cards , .service-cards{
+    width: 350px;
+    background-color: #fff4b8;
+    border-radius: 10px;
+}
+
+.menu-cards:hover{
+    transform: scale(1.1);
+}
+
+.service-cards{
+    padding: 0px 5px;
+    background-color: transparent;
+}
+
+.item-img{
+    width: 200px;
+    margin: 20px 0px;
+}
+
+.service-img{
+    width: 100px;
+}
+
+.item-name{
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.des{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.des2{
+    color: white;
+}
+
+.service-name{
+    color: orange;
+}
+
+.contact{
+    margin: 100px 190px;
+    text-align: center;
+    width: 1000px;
+    background-color: antiquewhite;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+
